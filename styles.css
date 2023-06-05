@@ -26,24 +26,29 @@ body{
 }
 .mainBox{
     margin: 4rem 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* width: ; */
     width: 40%;
 }
 
-h1{
-    font-size: 72px;
-    /* text-align: center; */
+.iconsBox{
+    margin: 2rem 0;
+    display: flex;
 }
+
+.iconsBox img {
+    height: 32px;
+    margin-right: 24px;
+}
+
 
 .mainParagraphBox{
     margin: 2rem 0;
 }
 
-.mainParagraphBox p {
+/* .mainParagraphBox p {
     font-weight: 400;
     font-size: 28px;
-}
+} */
 
 .mainPortraitBox{
     margin: 4rem 0;
